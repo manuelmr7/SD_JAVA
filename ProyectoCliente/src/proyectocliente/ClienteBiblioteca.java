@@ -394,7 +394,7 @@ public class ClienteBiblioteca {
         if (esAdmin) {
             int numRepos = gestor.NRepositorios(idAdmin);
             if (numRepos > 0) {
-                System.out.println("\nPOS NOMBRE DIRECCION Nº LIBROS");
+                System.out.println("\nPOS NOMBRE   \t\t\tDIRECCION \t\tNº LIBROS");
                 System.out.println("**************************************************************");
                 for (int i = 0; i < numRepos; i++) {
                     TDatosRepositorio datos = gestor.DatosRepositorio(idAdmin, i);
