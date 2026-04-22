@@ -12,7 +12,7 @@ public class ClienteBiblioteca {
     private static Scanner scanner = new Scanner(System.in);
     private static int campoOrdenacionActual = 0;
     
-    // Métodos auxiliares de visualización (proporcionados por el profesor)
+    
     private static String Ajustar(String S, int Ancho) {
         byte v[] = S.getBytes();
         int c = 0;
